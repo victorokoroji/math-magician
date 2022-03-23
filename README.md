@@ -14,7 +14,7 @@ Our goal here is to Build a single page web application for mathematics weebs us
 - Linters
 ## Live Demo
 
-[Live Demo Link](https://github.com/vickymarz/leaderboard/dist)
+[Live Demo Link](https://vickymarz.github.io/math-magician/)
 ### Prerequisites
 
 The basic requirements for building the executable are:
@@ -79,14 +79,12 @@ npx eslint .
 
 Feel free to check the [issues page](../../issues/).
 
-## Authors
 
-👤 **Author1**
+👤 **Okoroji Victor aka Vickymarz**
 
-- GitHub: [@githubhandle](https://github.com/Abenezer-Tilahun)
-- Twitter: [@twitterhandle](https://twitter.com/AbenezerTilah11)
-- LinkedIn: [LinkedIn](linkedin.com/in/abenezer-tilahun-4b4b43137)
+- GitHub: [@githubhandle](https://github.com/vickymarz)
 
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/okoroji-victor-ebube-8791741a0)
 
 ## Show your support
 
@@ -95,7 +93,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
-- My coding partners(@usorfaitheloho)
 
 ## 📝 License
 

@@ -5,6 +5,9 @@
 "Math-Magician" is a web app for all lovers of mathematics. It is a Single Page Application (SPA) that allows users to make simple calculations and read a random math-related quote.
 
 Our goal here is to Build a single page web application for mathematics weebs using the React library 
+
+![screenshot](./src/images/screenshot.png)
+
 ### Features implemented so far are:
 
 - Project Setup with React Installations

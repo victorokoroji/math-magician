@@ -29,35 +29,35 @@ render() {
         </div>
       </div>
       <div className="keyboard">
-        <Button onClick={this.handleClick}>AC</Button>
-        <Button onClick={this.handleClick}>+/-</Button>
-        <Button onClick={this.handleClick}>%</Button>
-        <Button onClick={this.handleClick} className="orange">
+        <Button onClick={handleClick}>AC</Button>
+        <Button onClick={handleClick}>+/-</Button>
+        <Button onClick={handleClick}>%</Button>
+        <Button onClick={handleClick} className="orange">
           ÷
         </Button>
-        <Button onClick={this.handleClick}>7</Button>
-        <Button onClick={this.handleClick}>8</Button>
-        <Button onClick={this.handleClick}>9</Button>
-        <Button onClick={this.handleClick} className="orange">
+        <Button onClick={handleClick}>7</Button>
+        <Button onClick={handleClick}>8</Button>
+        <Button onClick={handleClick}>9</Button>
+        <Button onClick={handleClick} className="orange">
           x
         </Button>
-        <Button onClick={this.handleClick}>4</Button>
-        <Button onClick={this.handleClick}>5</Button>
-        <Button onClick={this.handleClick}>6</Button>
-        <Button onClick={this.handleClick} className="orange">
+        <Button onClick={handleClick}>4</Button>
+        <Button onClick={handleClick}>5</Button>
+        <Button onClick={handleClick}>6</Button>
+        <Button onClick={handleClick} className="orange">
           -
         </Button>
-        <Button onClick={this.handleClick}>1</Button>
-        <Button onClick={this.handleClick}>2</Button>
-        <Button onClick={this.handleClick}>3</Button>
-        <Button onClick={this.handleClick} className="orange">
+        <Button onClick={handleClick}>1</Button>
+        <Button onClick={handleClick}>2</Button>
+        <Button onClick={handleClick}>3</Button>
+        <Button onClick={handleClick} className="orange">
           +
         </Button>
-        <Button onClick={this.handleClick} id="zero">
+        <Button onClick={handleClick} id="zero">
           0
         </Button>
-        <Button onClick={this.handleClick}>.</Button>
-        <Button onClick={this.handleClick} className="orange">
+        <Button onClick={handleClick}>.</Button>
+        <Button onClick={handleClick} className="orange">
           =
         </Button>
       </div>

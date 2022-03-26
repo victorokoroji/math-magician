@@ -6,7 +6,7 @@ const Calculator = () => {
   const [state, setState] = useState({ total: 0, next: null, operation: null });
 
   const handleClick = (e) => {
-    setState((state) => calculate(state, e.target.innerText));
+    setState((state) => calculate(state, e.target.textContent));
   };
 
   const { total, next, operation } = state;
@@ -15,9 +15,9 @@ const Calculator = () => {
       <div className="calculator">
         <div className="screen">
           {total}
-          {next}
           {operation}
-        </div>
+          {next}
+      </div>
       </div>
       <div className="keyboard">
         <Button onClick={handleClick}>AC</Button>

@@ -6,8 +6,8 @@ const Calculator = () => {
   const [state, setState] = useState({ total: 0, next: null, operation: null });
 
   const handleClick = (e) => {
-  setState((state) => calculate(state, e.target.innerText));
-  }
+    setState((state) => calculate(state, e.target.innerText));
+  };
 
   const { total, next, operation } = state;
   return (

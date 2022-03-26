@@ -3,11 +3,10 @@ import Button from './Button';
 import calculate from '../logic/calculate';
 
 const Calculator = () => {
-
 const [state, setState] = useState({ total: 0, next: null, operation: null });
 
-handleClick = (e) => {
-  this.setState((state) => calculate(state, e.target.innerText));
+const handleClick = (e) => {
+  setState((state) => calculate(state, e.target.innerText));
 }
 
   const { total, next, operation } = state;

@@ -37,4 +37,5 @@ body {
   background: url(./images/bg.jpg) no-repeat;
   background-size: cover;
   position: relative;
+  background-color: #00182c;
 }

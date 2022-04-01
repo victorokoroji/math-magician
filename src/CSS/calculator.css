@@ -1,9 +1,7 @@
 .main-container {
   width: 90%;
   height: 100%;
-  display: flex;
   margin: 3rem auto 0;
-  justify-content: space-between;
 }
 
 .main-container h2 {
@@ -14,8 +12,9 @@
 .wrapper {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 80%;
   margin: 3% auto;
+  padding-bottom: 50px;
 }
 
 .screen {
@@ -51,4 +50,18 @@ button {
 
 .orange {
   background-color: var(--orange);
+}
+
+@media only screen and (min-width: 728px) {
+  .main-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 3% auto;
+  }
 }

@@ -19,7 +19,8 @@ Our goal here is to Build a single page web application for mathematics weebs us
 - Linters
 ## Live Demo
 
-[Live Demo Link](https://vickymarz.github.io/math-magician/)
+[Heroku Live Demo Link](https://magic-calculator-app.herokuapp.com/)
+[Netlify Live Demo Link](https://math-magician-calculator.netlify.app/)
 ### Prerequisites
 
 The basic requirements for building the executable are:

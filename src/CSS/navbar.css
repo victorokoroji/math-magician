@@ -1,21 +1,21 @@
 .nav-items {
-	display: flex;
-	justify-content: flex-end;
-	align-items: flex-end;
-	gap: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 20px;
 }
 
 .nav-items li {
-	list-style: none;
+  list-style: none;
 }
 
 .nav-items a {
-	text-decoration: none;
-	color: var(--white);
-	font-size: 20px;
+  text-decoration: none;
+  color: var(--white);
+  font-size: 20px;
 }
 
-.active{
-	font-weight: 600;
-	border-bottom: 1px solid var(--orange);
+.active {
+  font-weight: 600;
+  border-bottom: 1px solid var(--orange);
 }

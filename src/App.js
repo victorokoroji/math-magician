@@ -1,5 +1,6 @@
 import './App.css'
 import React from 'react'
+import HomePage from './components/HomePage'
 import CalculatorPage from './components/CalculatorPage'
 
 const App = () => {

@@ -12,7 +12,6 @@ h3 {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  justify-content: center;
   align-items: flex-start;
 }
 

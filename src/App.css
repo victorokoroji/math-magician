@@ -2,6 +2,7 @@
 @import './CSS/header.css';
 @import './CSS/home.css';
 @import './CSS/calculator.css';
+@import './CSS/quotes.css';
 
 :root {
   /* primary colors */
@@ -11,4 +12,28 @@
   --light-gray: #e0e0e0;
   --blur: #d1d1d1;
   --orange: #f5913e;
+}
+
+/* global styling  */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: rgb(224, 220, 220);
+  position: relative;
 }

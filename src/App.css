@@ -1,3 +1,9 @@
+@import './CSS/navbar.css';
+@import './CSS/header.css';
+@import './CSS/home.css';
+@import './CSS/calculator.css';
+@import './CSS/quotes.css';
+
 :root {
   /* primary colors */
   --black: #000;
@@ -8,44 +14,28 @@
   --orange: #f5913e;
 }
 
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  width: 60%;
-  margin: 3% auto;
+/* global styling  */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.screen {
-  background-color: var(--gray);
-  border-top: 1px solid var(--white);
-  color: white;
-  padding: 20px 0;
-  font-size: 40px;
-  text-align: right;
+html {
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: normal;
 }
 
-.keyboard {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
-
-button {
-  font-size: 32px;
-  text-align: center;
-  padding: 20px 0;
-  background-color: var(--light-gray);
-  display: inline-block;
-  outline: none;
-  border: 1px solid var(--blur);
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#zero {
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-
-.orange {
-  background-color: var(--orange);
+body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: url(./images/bg.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: #00182c;
 }

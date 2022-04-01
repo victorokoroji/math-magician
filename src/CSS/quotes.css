@@ -1,0 +1,17 @@
+.quotes-container {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+}
+
+.quote {
+  font-size: 1.3rem;
+  width: 90%;
+  text-align: center;
+}
+
+.authorName {
+  font-weight: 800;
+}

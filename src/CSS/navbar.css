@@ -1,0 +1,21 @@
+.nav-items {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.nav-items li {
+  list-style: none;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 20px;
+}
+
+.active {
+  font-weight: 600;
+  border-bottom: 2px solid var(--orange);
+}

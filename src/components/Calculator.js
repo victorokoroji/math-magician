@@ -7,7 +7,7 @@ class Calculator extends Component {
     super(props);
     this.state = {
       operation: null,
-      total: 0,
+      total: null,
       next: null,
     };
     this.handleClick = this.handleClick.bind(this);
@@ -22,11 +22,7 @@ render() {
   return (
     <div className="wrapper">
       <div className="calculator">
-        <div className="screen">
-          {total}
-          {next}
-          {operation}
-        </div>
+        <div className="screen">{ total || next || operation}</div>
       </div>
       <div className="keyboard">
         <Button onClick={this.handleClick}>AC</Button>

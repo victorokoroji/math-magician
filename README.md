@@ -6,7 +6,9 @@
 
 Our goal here is to Build a single page web application for mathematics weebs using the React library 
 
+![screenshot](./src/images/screenshot-one.png)
 ![screenshot](./src/images/screenshot.png)
+![screenshot](./src/images/screenshot-two.png)
 
 ### Features implemented so far are:
 

@@ -3,7 +3,7 @@ import Navbar from './NavBar'
 
 const Header = () => (
 	<header className='header'>
-		<h2>Math Magician</h2>
+		<h1>Math Magician</h1>
 		<Navbar />
 	</header>
 )

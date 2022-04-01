@@ -6,11 +6,13 @@
 .home h2 {
   font-size: 1.8rem;
   padding-bottom: 2.9rem;
+  color: var(--orange);
 }
 
 .home p {
   font-size: 1.3rem;
   text-align: justify;
+  color: var(--white);
 }
 
 .definition-two {

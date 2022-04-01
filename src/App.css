@@ -34,6 +34,7 @@ body {
   width: 100%;
   min-height: 100vh;
   overflow-x: hidden;
-  background-color: rgb(224, 220, 220);
+  background: url(./images/bg.jpg) no-repeat;
+  background-size: cover;
   position: relative;
 }

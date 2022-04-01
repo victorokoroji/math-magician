@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import CalculatorPage from './components/CalculatorPage';
 import QuotesPage from './components/QuotesPage';
+
 const App = () => (
   <>
     <Routes>

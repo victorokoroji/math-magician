@@ -1,6 +1,6 @@
 import './App.css'
 import React from 'react'
-import Calculator from './components/Calculator'
+import CalculatorPage from './components/CalculatorPage'
 
 const App = () => {
 	return (
@@ -8,7 +8,7 @@ const App = () => {
 			<Navbar />
 			<Routes>
 				<Route exact path='/' element={<HomePage />} />
-				<Route path='/calculator' element={<Calculator />} />
+				<Route path='/calculator' element={<CalculatorPage />} />
 				<Route path='/quotes' element={<QuotesPage />} />
 			</Routes>
 		</>
